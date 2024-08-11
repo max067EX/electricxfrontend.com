@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Web Page</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Full Page Layout */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #bfbfbf; /* Light gray background */
+            color: #333;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        /* Container for text and button */
+        .content {
+            background-color: #d9d9d9; /* Slightly darker gray box */
+            padding: 40px;
+            border: 2px solid #000; /* Black border */
+            max-width: 350px;
+            text-align: left;
+            line-height: 1.6;
+            padding-left: 10px; /* Move text slightly to the left */
+        }
+
+        /* Enhanced text styling */
+        .content p {
+            font-size: 18px;
+            margin-bottom: 16px;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+
+        /* Web hosting text as a single line */
+        .web-hosting {
+            display: inline-block;
+        }
+
+        /* Emphasized "Get started now" */
+        .content p:last-of-type {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 24px;
+        }
+
+        /* Button Styling */
+        .email-button {
+            display: block;
+            padding: 12px 24px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007BFF;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 4px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .email-button:hover {
+            background-color: #0056b3;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <p>_ Front end Development</p>
+        <p>_ 100% customizable</p>
+        <p>_ Doesn't come with back end</p>
+        <p>_ Doesn't come with web hosting</p>
+        <p>Get started now</p>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=electricxoffice@gmail.com" class="email-button" target="_blank">Button</a>
+    </div>
+</body>
+</html>
